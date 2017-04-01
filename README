@@ -6,4 +6,17 @@ code from github.com/mjibson/go-dsp/fft does.
 // Maybe I should have written a BASIC interpreter instead,
 // and used the Professor's code :)
 
+go run waterfall.go --n=256:
+
+   Input is a text file with integer voltage samples,
+   in a typical decoded mulaw scale, max about +-30000.
+
+   Output is a PPM textfile of the waterfall.
+   Use "ppmtojpeg" or "ppmtogif" etc. to produce an image.
+   It's upside down -- time goes down, unlike most waterfalls.
+
+go run render.go
+
+   Quick test code.
+   Writes /tmp/rex{1,2,3}.png
 
