@@ -1,0 +1,9 @@
+FFT code. 
+
+My own attempt at FFT does not totally work;
+code from github.com/mjibson/go-dsp/fft does.
+
+// Maybe I should have written a BASIC interpreter instead,
+// and used the Professor's code :)
+
+
